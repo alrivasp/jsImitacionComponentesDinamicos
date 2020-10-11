@@ -1,0 +1,59 @@
+.alert{
+    background-color: #ffa7a7;
+    color: white;
+    border-radius: 5px;
+    padding: 3px 10px;
+}
+
+.alert-close{
+    float: right;
+    margin-top: 0px;
+    font-size: 1.25rem;
+    cursor: pointer;
+}
+.collapse-btn{
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+
+    &:hover{
+        opacity: 0.8;
+    }
+}
+
+.collapse-content{
+    display: none;
+}
+
+.div-accordion{
+    margin: 10px 0px 20px 0px;
+    display: none;
+    padding: 10px;
+}
+
+.w-100{
+    width: 100%;
+    text-align: left;
+}
+
+.collection-acordion{
+    border-radius: 5px;
+    border: 1px solid;
+}
+
+.collection-acordion-btn{
+    background-color: black;
+    color: white;
+    border: solid 1px white;
+
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+
+    &:hover{
+        opacity: 0.8;
+    }
+}
